@@ -1,0 +1,62 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html{
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(255, 159, 191);
+}
+
+body{
+  display: flex;
+  justify-content: center;
+
+}
+
+.container{
+  position: relative;
+  margin-top: 60%;
+  width: 80%;
+  /* background-color: green; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.coisaum{
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+}
+.coisadois{
+  position: relative;
+  margin-top: 20px;
+}
+
+img{
+  width: 70px;
+  position: absolute;
+  right: -30px;
+  top: -20px;
+}
+
+button{
+  position: relative;
+  margin-top: 10px;
+  margin-inline: 15%;
+  width: 70%;
+  height: 60px;
+  font-size: 30px;
+  border: none;
+  background-color: rgb(255, 213, 213);
+}
+/* button:hover{
+  background-color: rgb(202, 158, 158);
+} */
+/* button::after{
+  background-color: rgb(255, 213, 213);
+} */
+button:active{
+  background-color: rgb(202, 158, 158);
+}
